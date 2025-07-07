@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Clone</title>
+  <link rel="stylesheet" href="{% static 'css/google.css' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <header class="top-nav">
+     
+  <a href="#">Gmail</a>
+  <a href="#">Images</a>
+  <div class="apps"><a href=""><img src="{% static 'images/image.png' %}" width="20"  alt="options"></a></div>
+  <button>Sign in</button>
+
+    </header>
+  <div class="container">
+    
+    <img src="{% static 'images/google-logo.png' %}" alt="Google Logo" class="logo" />
+    <form class="search-box" action="https://www.google.com/search" method="GET">
+    <a href="#"><span class="material-icons search-icon">search</span></a>
+    
+    <input class="search-box" type="text" name="q" placeholder="Search Google or type a URL" />
+
+    <div class="icons">
+        <img src="{% static 'images/mircophone.png' %}" alt="Mic" class="icon" />
+        <img src="{% static 'images/camera.png' %}" alt="Camera" class="icon" />
+    </div>
+    </form>
+
+
+    <div class="buttons">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+
+    <div class="language">
+      Google offered in: <a href="#">العربية</a>
+    </div>
+  </div>
+
+  <footer>
+  <div class="footer-row">
+    <div class="footer-left">Saudi Arabia</div>
+   
+  </div>
+  <hr>
+  <div class="footer-row">
+    <div class="footer-links">
+          <a href="#">About</a>
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search works</a>
+     
+    </div>
+     <div class="footer-links">
+     <a href="#">Privacy</a>
+        <a href="{% url 'main:terms_view' %}">Terms</a>
+      <a href="#">Settings</a>
+    </div>
+  </div>
+</footer>
+
+ 
+</body>
+</html>
