@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apps" />
+    <link rel="stylesheet" href="{% static 'css\style.css' %}" />
+    <title>Google</title>
+</head>
+<body>
+    <div class="wapper">
+
+        <nav>
+            <a href="">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+            <span class="material-symbols-outlined">apps</span>
+            <button class="btn">Sign in</button>
+        </nav>
+        <div>
+            <main class="content2">
+                <img src="{% static 'images\tos_main_illustration.svg' %}" alt="google_logo" class="logo2">
+                <div class="terms_text">
+                    <h3>Google Terms of Service</h3>
+                    <span>Effective 5 January 2022 | <a href="">Archived versions</a> | <a href="">Download PDF</a></span>
+                    <br>
+                    <span><a href="">Country version: </a>Saudi Arabia</span>
+                    <h4>What’s covered in these terms</h4>
+                    <h5>We know it’s tempting to skip these Terms of Service, but it’s important to establish what you can expect from us as you use Google <a href="">services</a>, and what we expect from you.</h5>
+                    <span>These Terms of Service reflect the way that Google’s business works, the laws that apply to our company, and certain things that we’ve always believed to be true. As a result, these Terms of Service help define Google’s relationship with you as you interact with our services. For example, these terms include the following topic headings:</span>
+                    <ul>
+                        <li>What you can expect from us, which describes how we provide and develop our services</li>
+                        <li>What we expect from you, which establishes certain rules for using our services</li>
+                        <li>Content in Google services, which describes the intellectual property rights to the content that you find in our services – whether that content belongs to you, Google or others</li>
+                        <li>In case of problems or disagreements, which describes other legal rights that you have, and what to expect in case someone violates these terms.</li>
+                    </ul>
+                    <span>Understanding these terms is important because, by using our services, you’re agreeing to these terms.</span>
+                    <span>Besides these terms, we also publish a Privacy Policy. Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export and delete your information.</span>
+                    <h1>Terms</h1>
+                    <h2>Service provider</h2>
+                    <span>Google services are provided by, and you’re contracting with:</span>
+                    <span>Google LLC organised under the laws of the State of Delaware, USA,and operating under the laws of the USA 1600 Amphitheatre Parkway Mountain View, California 94043 USA </span>
+                    <h2>Age requirements</h2>
+                    <span>If you’re under the age required to manage your own Google Account, you must have your parent or legal guardian’s permission to use a Google Account. Please ask your parent or legal guardian to read these terms with you</span>
+                    <span>If you’re a parent or legal guardian, and you allow your child to use the services, then these terms apply to you and you’re responsible for your child’s activity on the services.</span>
+                    <span>Some Google services have additional age requirements as described in their service-specific additional terms and policies.</span>
+                </div>
+            </main>
+        </div>
+    </div>
