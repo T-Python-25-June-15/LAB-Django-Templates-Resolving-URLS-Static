@@ -1,0 +1,148 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.terms-wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap:1.5rem;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+}
+
+.nav_button{
+    background-color:dodgerblue;
+    color:white;
+    font-weight: 10;
+    border:0;
+    padding:0.5rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 580px;
+    padding: 0 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    height: 44px;
+    background-color: #fff;
+  }
+
+
+.search-form {
+    flex: 1;
+    display: flex;
+}
+
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    margin-bottom: 3px;
+    color:#666666;
+  }
+
+  .google-input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+  .voice-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+.main-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.main-buttons button{
+    background-color: #F0F0F0;
+    border-radius: 0.5rem;
+    color:black;
+    padding:0.7rem;
+    border: 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 12px;
+    color: #70757a;
+  }
+
+  .footer-location {
+    padding: 1rem 2rem;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .footer-links .footer-left, .footer-links .footer-right {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  footer a {
+    color: #70757a;
+    text-decoration: none;
+  }
+
+  
+  .terms-paragraph{
+    text-align: left;
+    width:60%;
+  }
