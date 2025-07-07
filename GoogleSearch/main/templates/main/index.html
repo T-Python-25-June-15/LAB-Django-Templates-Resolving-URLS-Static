@@ -1,0 +1,62 @@
+<!--Luluh Almogbil-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <span class="material-icons">apps</span>
+        <button class="sign-in">Sign in</button>
+    </div>
+
+    <div class="main">
+        <img src="{% static 'images/google-logo.png' %}" alt="Google" class="logo">
+       
+        <!--sendig to google the input value using key q-->
+        <form action="https://www.google.com/search" method="GET" class="search-form">
+            <div class="search-box">
+                <span class="material-icons">search</span>
+                <input type="text" name="q" placeholder="Search Google...">
+                <img src="{% static 'images/mircophone.png' %}" class="icon">
+                <img src="{% static 'images/camera.png' %}" class="icon">
+            </div>
+        
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit" name="btnI">I'm Feeling Lucky</button>
+            </div>
+        </form><!--end of my form-->
+        
+
+        <p class="language">Google offered in:  <a href="#"> العربية</a></p>
+    </div>
+
+    <footer>
+        <div class="location">Saudi Arabia</div>
+        <hr class="myline">
+        <div class="footer-links">
+            <div>
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div>
+                <a href="#">Privacy</a>
+                <a href="{% url 'main:terms_view' %}">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
