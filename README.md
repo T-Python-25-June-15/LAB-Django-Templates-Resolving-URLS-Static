@@ -10,7 +10,6 @@
 
 ### Use Static files.
 ### Use dynamic URLs where applicable.
-### Use Template inheritance.
 ### All the resources you need are in the folder `resources` included in this Repo.
 ### Use google fonts to get the same font.
 ### Use google icons for other icons that are not in the resources (choose similar icons)
