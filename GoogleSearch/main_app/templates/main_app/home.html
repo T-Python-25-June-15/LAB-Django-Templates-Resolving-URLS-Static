@@ -1,13 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
     <title>Google</title>
 </head>
 <body>
-    
 
 <header>
     <nav>
@@ -15,7 +17,7 @@
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
             <li class="menu-bg">
-                <img class="menu-button" src="resources/menu.png" alt="menu-button">
+                <img class="menu-button" src="{% static 'resources/menu.png' %}" alt="menu-button">
             </li>
             <li>
                 <img class="profile-pic" src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="profile-pic">
@@ -25,21 +27,21 @@
 </header>
 
 <section class="search-wrapper">
-    <img class="logo" src="resources/google-logo.png" alt="logo">
+    <img class="logo" src="{% static 'resources/google-logo.png' %}" alt="logo">
+    
     <form action="https://www.google.com/search" method="GET">
-  <div class="search-box">
-  <input type="text" name="q" placeholder="Search Google">
-  <img class="mic" src="resources/mircophone.png" alt="mic">
-  <img class="search" src="resources/camera.png" alt="search">
-  </div>
+        <div class="search-box">
+            <input type="text" name="q" placeholder="Search Google">
+            <img class="mic" src="{% static 'resources/mircophone.png' %}" alt="mic">
+            <img class="search" src="{% static 'resources/camera.png' %}" alt="search">
+        </div>
 
-
-  <div class="button">
-    <button type="submit">Google Search</button>
-    <button type="button" onclick="feelingLucky()">I'm Feeling Lucky</button>
-  </div>
-</form>
-
+        <div class="button">
+            <button type="submit">Google Search</button>
+            <button type="button" onclick="feelingLucky()">I'm Feeling Lucky</button>
+        </div>
+    </form>
+</section>
 
 <footer>
     <div class="country">Saudi Arabia</div>

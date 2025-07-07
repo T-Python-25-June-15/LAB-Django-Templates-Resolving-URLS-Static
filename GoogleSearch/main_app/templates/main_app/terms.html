@@ -1,10 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Google Terms of Service</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="{% static 'main_app/style.css' %}">
+
   <style>
     .terms-container {
       max-width: 800px;
@@ -39,8 +42,7 @@
   </style>
 </head>
 <body>
-
-  <img src="resources/tos_main_illustration.svg" alt="Terms illustration" class="tos-image">
+  <img src="{% static 'resources/tos_main_illustration.svg' %}" alt="Terms illustration" class="tos-image">
 
   <div class="terms-container">
     <h1>Google Terms of Service</h1>
