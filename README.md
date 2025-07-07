@@ -21,7 +21,7 @@
 ..................................
 
 #### Terms of Service Page:
-<img width="1788" alt="Screenshot 2024-02-28 at 10 14 57 AM" src="[https://github.com/T-Python-25-June-15/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308457027-4b259d48-913a-4bb7-8f22-2f9399249bd7.png?raw=true">
+<img width="1788" alt="Screenshot 2024-02-28 at 10 14 57 AM" src="https://github.com/T-Python-25-June-15/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308457027-4b259d48-913a-4bb7-8f22-2f9399249bd7.png?raw=true">
 
 
 #### Google Fonts & Google Icons:
