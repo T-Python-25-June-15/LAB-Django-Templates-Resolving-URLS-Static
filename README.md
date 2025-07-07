@@ -16,12 +16,12 @@
 ### Use google icons for other icons that are not in the resources (choose similar icons)
 
 #### Home page: 
-<img width="1786" alt="Screenshot 2024-02-28 at 10 09 43 AM" src="https://github.com/T-Python-June-25/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308456983-e9ceecc8-7cc1-4536-9a7b-ecf95c964609.png?raw=true">
+<img width="1786" alt="Screenshot 2024-02-28 at 10 09 43 AM" src="https://github.com/T-Python-25-June-15/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308456983-e9ceecc8-7cc1-4536-9a7b-ecf95c964609.png?raw=true">
 
 ..................................
 
 #### Terms of Service Page:
-<img width="1788" alt="Screenshot 2024-02-28 at 10 14 57 AM" src="[https://github.com/T-Python-Sep-24/LAB-TEMPLATES-HTML-CSS-102](https://github.com/T-Python-June-25/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308457027-4b259d48-913a-4bb7-8f22-2f9399249bd7.png?raw=true">
+<img width="1788" alt="Screenshot 2024-02-28 at 10 14 57 AM" src="[https://github.com/T-Python-25-June-15/LAB-TEMPLATES-HTML-CSS-102](https://github.com/T-Python-June-25/LAB-Django-Templates-Resolving-URLS-Static/blob/main/308457027-4b259d48-913a-4bb7-8f22-2f9399249bd7.png?raw=true">
 
 
 #### Google Fonts & Google Icons:
