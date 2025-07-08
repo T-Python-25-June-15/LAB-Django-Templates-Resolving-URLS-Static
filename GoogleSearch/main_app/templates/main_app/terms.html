@@ -9,6 +9,43 @@
   <link rel="stylesheet" href="{% static 'main_app/style.css' %}">
 
   <style>
+    header {
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #1a73e8;
+}
+
+.menu-button {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
     .terms-container {
       max-width: 800px;
       margin: 40px auto;
@@ -42,6 +79,21 @@
   </style>
 </head>
 <body>
+<header>
+  <nav>
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li class="menu-bg">
+                <img class="menu-button" src="{% static 'resources/menu.png' %}" alt="menu-button">
+            </li>
+            <li>
+                <img class="profile-pic" src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="profile-pic">
+            </li>
+        </ul>
+    </nav>
+
+
   <img src="{% static 'resources/tos_main_illustration.svg' %}" alt="Terms illustration" class="tos-image">
 
   <div class="terms-container">
@@ -94,6 +146,7 @@
   <footer>
     &copy; 2025 Google. All rights reserved.
   </footer>
+  </header>
 
 </body>
 </html>
