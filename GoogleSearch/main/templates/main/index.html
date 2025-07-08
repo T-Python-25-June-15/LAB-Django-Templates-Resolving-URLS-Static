@@ -25,13 +25,23 @@
 
         <div class="search">
 
-            <div class="search_input">
+            <!-- <div class="search_input">
                 <img src="{% static 'images/search.png' %}" class="icon">
                 <input type="text" >
                 <img src="{% static 'images/mircophone.png' %}" class="icon">
                 <img src="{% static 'images/camera.png' %}" class="icon">
 
-            </div>
+            </div> -->
+
+
+            <form action="https://www.google.com/search" method="GET" class="search_input">
+                <img src="{% static 'images/search.png' %}" class="icon">
+                
+                <input type="text" name="q">
+                
+                <img src="{% static 'images/mircophone.png' %}" class="icon">
+                <img src="{% static 'images/camera.png' %}" class="icon">
+            </form>
 
             <div class="buttons">
                 <button>Google Search</button>
