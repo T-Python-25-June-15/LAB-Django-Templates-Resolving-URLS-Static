@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GoogleSearch Home</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header class="top-links">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+    <span class="material-icons apps-icon">apps</span>
+    <button class="sign-in">Sign in</button>
+  </header>
+
+  <main class="center-container">
+    <img src="{% static 'main/images/google-logo.png' %}" alt="Google Logo" class="logo">
+
+    <form class="search-bar" action="https://www.google.com/search" method="GET">
+      <span class="material-icons">search</span>
+      <input type="text" placeholder="Search Google">
+      <img src="{% static 'main/images/mircophone.png' %}" alt="Mic">
+      <img src="{% static 'main/images/camera.png' %}" alt="Camera">
+    </form>
+
+    <div class="buttons">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+
+    <p class="offer-lang">Google offered in: <a href="#">العربية</a></p>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <span>Saudi Arabia</span>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+      </div>
+      <div>
+        <a href="#">Privacy</a>
+        <a href="{% url 'main:terms' %}">Terms</a>
+        <a href="#">Settings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
