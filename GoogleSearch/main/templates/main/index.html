@@ -25,12 +25,13 @@
             <img src="static/images/google-logo.png">
         </div>
 
-        <div class="search_container">
+        <form action="https://www.google.com/search" method="GET" class="search_container">
             <img src="static/images/camera.png">
             <img src="static/images/mircophone.png">
-            <input type="text" id="lname" name="lname">
+            <input type="text" name="q" required>
+            <input type="submit" style="display: none;">
             <span class="material-symbols-outlined">search</span>
-        </div>
+        </form>
 
         <div class="buttons_container">
             <button type="button">Google Search</button>
