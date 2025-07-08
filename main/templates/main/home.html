@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <div class="menu-icon"></div>
+        <button class="sign-in">Sign in</button>
+    </div>
+    
+    <div class="center-content">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        <form action="https://www.google.com/search" method="GET">
+            <div class="search-box">
+                <input type="text" name="q" required>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+            </div>
+        </form>
+        
+
+
+    </div>
+
+    <footer>
+        <div class="country">Saudi Arabia</div>
+        <div class="footer-links">
+            <div class="left">
+                <a href="{% url 'terms' %}">About</a>
+                <a href="{% url 'terms' %}">Advertising</a>
+
+
+                <a href="{% url 'terms' %}">Business</a>
+
+
+                <a href="{% url 'terms' %}">How Search works</a>
+            </div>
+
+
+            <div class="right">
+
+
+
+                <a href="{% url 'terms' %}">Privacy</a>
+
+                <a href="{% url 'terms' %}">Terms</a>
+
+                <a href="{% url 'terms' %}">Settings</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
