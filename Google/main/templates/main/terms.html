@@ -1,12 +1,41 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{%static '/css/terms.css'%}">
+    <title>Terms</title>
 </head>
 <body>
-    <h2>Terms html</h2>
+    <div class="header">
+        <ul>
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li class="sign-in"><a href="">Sign in</a></li>
+        </ul>
+    </div>
+
+    <div class="main-photo">
+        <img src="{% static '/images/Terms.png' %}" alt="Main Image">
+    </div>
+
+    <div class="texts">
+        <div class="first">
+            <h1>Google Terms of Service</h1>
+            <p class="date">Effective 5 January 2022 | <span>Archived versions | Download PDF</span> </p>
+            <p class="country"><span>Country version:</span> Saudi Arabia</p>
+        </div>
+        <div class="second">
+            <h3>What’s covered in these terms</h3>
+            <p class="content1">We know it’s tempting to skip these Terms of Service, but it’s important to establish
+                 what you can expect from us as you use Google <span>services</span>, and what we expect from you.</p>
+            <p class="content2">These Terms of Service reflect <span>the way that Google’s business works</span>, the laws that apply to our company,
+                 and <span>certain things that we’ve always believed to be true</span>. As a result, these Terms of Service help define
+                  Google’s relationship with you as you interact with our services. For example, these terms include the following
+                   topic headings:</p>
+        </div>
+    </div>
     
 </body>
 </html>
