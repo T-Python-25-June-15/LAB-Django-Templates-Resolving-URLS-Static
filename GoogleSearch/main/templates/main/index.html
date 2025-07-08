@@ -1,9 +1,10 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="{% static 'css/style.css'%}" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +61,7 @@
                     </div>
                     <div class="right-links">
                         <a class="page" href="">Privacy</a>
-                        <a class="page" href="/terms/">Terms</a>
+                        <a class="page" href="{%url 'main:tearms_view' %}">Terms</a>
                         <a class="page" href="">settings</a>
                     </div>
 
