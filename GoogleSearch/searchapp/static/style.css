@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+header button {
+    margin-right: 20px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+main form {
+    width: 100%;
+    max-width: 600px;
+}
+
+main .google_logo {
+    width: 60%;
+    max-width: 300px;
+}
+
+main .search_input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    gap: 5px;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px lightgray solid;
+}
+
+main .search_input button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+main .search_input input {
+    width: 100%;
+    height: 35px;
+    padding: 4px 10px;
+    border: none;
+}
+
+main .icon {
+    width: 30px;
+}
+
+main .btns {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .btns button {
+    padding: 10px;
+    background-color: #e9e9e9;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    background-color: #e9e9e9;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+footer div:first-child {
+    border-bottom: 1px lightgray solid;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+footer div:last-child div:first-child {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+footer div:last-child div:last-child {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+/* Terms page specific */
+#terms_img {
+    width: 50vw;
+}
+
+#terms {
+    text-align: start;
+    width: 70%;
+    line-height: 25px;
+    display: block;
+}
+
+#terms h1, #terms h2, #terms h3, #terms span, #terms p, #terms ul {
+    margin-top: 20px;
+    display: block;
+}
+
+#terms ul {
+    margin: 10px 20px 0 20px;
+}
