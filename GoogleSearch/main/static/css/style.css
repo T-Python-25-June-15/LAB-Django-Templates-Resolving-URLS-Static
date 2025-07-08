@@ -1,0 +1,174 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: white;
+}
+
+header{
+  padding: 15px 20px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #444;
+}
+
+
+
+.sign-btn{
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 100px;
+  width: 272px;
+  height: 92px;
+}
+
+.search-box{
+  margin: 30px auto;
+  width: 600px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.search-box input{
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+.icons {
+    display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
+  
+}
+.icons img{
+  width: 24px;
+  height: 24px;
+}
+
+.buttons {
+  margin: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons button:hover{
+  border: 1px solid;
+}
+
+.arabic{
+  font-size: 14px;
+}
+
+.arabic a{
+  color: #1237ca;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #f8f8f8;
+  font-size: 14px;
+  padding: 10px 30px;
+  width: 95%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-top{
+  border-bottom: 1px solid #c4c7cc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #50555a;
+  text-align: left;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links .left a{
+  margin: 0 15px 5px 0;
+  text-decoration: none;
+  color: #50555a;
+}
+.footer-links .right a{
+  margin: 0 15px 5px 0;
+  text-decoration: none;
+  color: #50555a;
+}
+
+.footer-links a:hover{
+  text-decoration: underline;
+}
+
+.terms-main{
+  max-width: 720px;
+  margin: 65px 100px;
+  padding: 15px;
+  text-align: left;
+}
+
+.terms-illustration{
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 40px;
+}
+
+.terms-para h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.terms-para h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.terms-para p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.terms-para ul {
+  margin-left: 20px;
+}
+
+.terms-para ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
