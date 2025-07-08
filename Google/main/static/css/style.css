@@ -60,13 +60,17 @@ button:hover {
 
 .search_box input {
   border-radius: 50px;
-  width: 100%;
+  width: 87%;
   height: 2.8rem;
   border: 2px solid #f3f4f5;
   padding: 0 3rem 0 3rem;
   font-size: 16px;
   outline: none;
   text-align: left;
+}
+
+form {
+  width: 100%;
 }
 
 .search_box input:hover {
