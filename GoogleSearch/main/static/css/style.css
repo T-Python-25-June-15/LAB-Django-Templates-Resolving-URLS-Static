@@ -163,3 +163,8 @@ footer {
 .terms_container p, .terms_container h2{ 
     margin: 20px 0px;
 }
+
+.terms a { 
+    text-decoration: none;
+    color: black
+}
