@@ -1,0 +1,57 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> google </title>
+       <link rel="stylesheet" href= "{% static 'css/style_home.css' %}" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    </head>
+   <body>
+  <header>
+    <div class="header-right">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <span class="material-symbols-outlined">apps</span>
+      <button class="sign-in">Sign in</button>
+    </div>
+  </header>
+
+  <main>
+    <img src="static/images/google-logo.png" alt="Google Logo" class="logo" />
+
+    <form action="https://www.google.com/search" class="search">
+      <div class="search-box">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" name="q" placeholder="Search Google or type a URL" />
+        <img src="/static/images/mircophone.png" alt="mic" class="icon" />
+        <img src="/static/images/camera.png" alt="cam" class="icon" />
+      </div>
+      <div class="buttons">
+        <button type="submit" class="search">Google Search</button>
+        <button type="button">I'm Feeling Lucky</button>
+      </div>
+    </form>
+
+    <div class="language"> Google offered in: <a href="">العربية</a>
+    </div>
+  </main>
+  <footer>
+    <div class="country">Saudi Arabia</div>
+    <div class="footer-links">
+      <div class="left">
+        <a href="">About</a>
+        <a href="">Advertising</a>
+        <a href="">Business</a>
+        <a href="">How Search works</a>
+      </div>
+      <div class="right">
+        <a href="">Privacy</a>
+        <a href="{% url 'main:terms_page' %}">Terms</a>
+        <a href="">Settings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
